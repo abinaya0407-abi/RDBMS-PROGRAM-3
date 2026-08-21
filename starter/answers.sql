@@ -1,5 +1,5 @@
-CREATE database col;
-USE col;
+CREATE database col; 
+use col;
 CREATE TABLE Student (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(20) NOT NULL UNIQUE,
@@ -17,6 +17,4 @@ ALTER TABLE StudentADD PhoneNumber integer(10);
 desc Student;
 insert Student values("1011","abi","2008-04-28:,"female","101","abi0407@gmail.com","0987654321");
 desc Student;
-select*from Student
-
-
+select*from Student;
