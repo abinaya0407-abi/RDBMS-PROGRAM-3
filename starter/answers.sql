@@ -1,0 +1,16 @@
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(20) NOT NULL UNIQUE,
+    DOB DATE NOT NULL,
+    Gender VARCHAR(10) NOT NULL,
+    DepartmentID INT NOT NULL
+);
+
+ALTER TABLE Student
+ADD Email VARCHAR(30);
+
+ALTER TABLE Student
+ADD PhoneNumber BIGINT;
+
+DESCRIBE Student;
+
