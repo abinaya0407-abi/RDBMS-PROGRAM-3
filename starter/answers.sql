@@ -11,9 +11,9 @@ desc Student;
 insert student values("1011","abi","2008-04-28","female","101");
 desc Student
 select*from Student
-ALTER TABLE StudentADD Email VARCHAR(30);
+ALTER TABLE Student ADD Email VARCHAR(30);
 
-ALTER TABLE StudentADD PhoneNumber integer(10);
+ALTER TABLE Student ADD PhoneNumber integer(10);
 desc Student;
 insert Student values("1011","abi","2008-04-28:,"female","101","abi0407@gmail.com","0987654321");
 desc Student;
