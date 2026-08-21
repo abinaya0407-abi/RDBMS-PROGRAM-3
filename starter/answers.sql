@@ -1,5 +1,5 @@
-create database col;
-use col;
+CREATE database col;
+USE col;
 CREATE TABLE Student (
     StudentID INT PRIMARY KEY,
     StudentName VARCHAR(20) NOT NULL UNIQUE,
